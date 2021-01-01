@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta name="form" content="width=device-width,initial-scale=1"><style> 
+    body{ font: 15px sans-serif; }
+    form{ border: 3px solid white;}
+    
+    input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;}
+    button{
+        background-color: dimgray;
+        color: white;
+        padding: 15px 20px;
+        margin: 10px 0;
+        border: none;
+        cursor: pointer;
+        width:100%;
+    }
+    button:hover{
+        opacity:0.4;
+    }
+    .cancel{
+        width: auto;
+        padding: 10px 20px;
+        background-color: crimson;
+        font-size: 20px;
+        float:inherit;
+    }
+    .submit{
+        width: auto;
+        padding: 10px 20px;
+        background-color: forestgreen;
+        font-size: 20px;
+        
+    }
+    .pws{
+        float: left;
+        padding-top: 15px;
+    }
+    h1{
+        font: 40px serif;
+     }
+    .a{
+        padding: 15px;
+    }
+    
+    label{
+        font-size: 20px;
+        
+    }
+    
+    
+    
+    </style>
+    <title> login.form</title>
+    </head>
+    <body>
+    <h1 centre > LOGIN FORM : </h1><hr />  
+        <form action="/page" method="post">
+              <div class="a">
+        <label for="uname"> <b> Username :</b></label>
+        <input type="text" placeholder="Enter Username ...." name="uname" required>
+        <br>
+        <br>
+        <label for="Psw"> <b>Password :</b></label>
+        <input type="password" placeholder="Enter Password...." name="Psw" required><br>
+         *must contain 8 or more than 8 digits/letters to make your password strong
+        <br>
+        <br>
+        <button type="submit" class="submit">Login ?</button>
+        <br>
+        <label>
+        <input type="checkbox" checked="checked" name="Remember"> Remember Password ?
+        </label>
+        </div>
+            <div class="a">
+        <button type="button" class="cancel">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+           
+                <span class="psw">FORGOT <a herf="#">PASSWORD??</a></span></div>
+        </form>
+        
+    </body>
+
+</html>
