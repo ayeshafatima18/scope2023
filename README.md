@@ -1,1 +1,1 @@
-# scope2023
+# scope2023 all assignments 
